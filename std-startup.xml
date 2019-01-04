@@ -1,0 +1,13 @@
+<aiml version="1.0">
+
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD AIML ES</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>aiml/botdata/aiml-set/*.aiml</learn>
+</template>
+</category>
+
+</aiml>

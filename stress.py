@@ -15,7 +15,7 @@ kern2.verbose(False)
 
 # Initialize the kernels
 print( "Initializing Kernel #1" )
-kern1.bootstrap(learnFiles="std-startup.xml", commands="load aiml b")
+kern1.bootstrap(learnFiles="std-startup.xml", commands="load aiml es")
 kern1.saveBrain("standard.brn")
 print( "\nInitializing Kernel #2" )
 kern2.bootstrap(brainFile="standard.brn")

@@ -97,9 +97,9 @@
     <pattern>ADIOS</pattern>
     <template> 
       <random>
-        <li>Hasta luego.</li>
-        <li>Espero haber sido de ayuda.</li>
-		<li>Espero verte de nuevo.</li>
+        <li>Hasta luego, <get name = "username"/>.</li>
+        <li>Espero haber sido de ayuda, <get name = "username"/>.</li>
+		<li>Espero verte de nuevo, <get name = "username"/>.</li>
       </random>
     </template>
   </category>
@@ -856,17 +856,17 @@
       </template>
     </category>
 	<category> 
-      <pattern>ME LLAMO</pattern>
+      <pattern>ME LLAMO _</pattern>
       <template> 
         <random> 
-          <li>Encantado de conocerte.</li>
-          <li>Es un nombre bonito.</li>
-          <li>Encantado. Yo soy <bot name="nombre_bot"/>.</li>
-          <li>Me gusta tu nombre.</li>
-          <li>Es un nombre interesante. ¿Sabes su origen o qué?</li>
-          <li>Jeje, conozco a alguien con tu mismo nombre.</li>
-          <li>Tienes un nombre bonito.</li>
-          <li>Siempre me ha gustado ese nombre.</li>
+          <li>Encantado de conocerte. <set name = "username"><star/>! </set></li>
+          <li><set name = "username"> <star/>!</set> es un nombre bonito.</li>
+          <li>Encantado <set name = "username"><star/>!</set>. Yo soy <bot name="name"/>.</li>
+          <li>Me gusta tu nombre <set name = "username"><star/>!</set>.</li>
+          <li><set name = "username"> <star/>! </set>es un nombre interesante. ¿Sabes su origen o qué?</li>
+          <li>Jeje, conozco a alguien con tu mismo nombre <set name = "username"><star/>!</set>.</li>
+          <li>Tienes un nombre bonito, <set name = "username"><star/>!</set>.</li>
+          <li><set name = "username"><star/>!</set>, Siempre me ha gustado ese nombre.</li>
         </random>
       </template>
     </category>

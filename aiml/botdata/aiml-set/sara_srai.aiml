@@ -4,7 +4,7 @@
 
   <aiml> 
 
-<!-- Free software Copyright © ALICE A.I. Foundation. --> 
+<!-- Free software Copyright ÔøΩ ALICE A.I. Foundation. --> 
 <!-- This program is open source code released under --> 
 <!-- the terms of the GNU General Public License --> 
 <!-- as published by the Free Software Foundation. --> 
@@ -15,33 +15,33 @@
 <!-- Revision Sara_srai-0.02 --> 
 <!-- Last Modified March 15th, 2006 -->
 
-<!-- Software Libre Copyright © ALICE A.I. Foundation. --> 
-<!-- Este programa es de cÛdigo abierto y publicado bajo --> 
-<!-- los tÈrminos de la licencia "GNU General Public License" --> 
+<!-- Software Libre Copyright ÔøΩ ALICE A.I. Foundation. --> 
+<!-- Este programa es de cÔøΩdigo abierto y publicado bajo --> 
+<!-- los tÔøΩrminos de la licencia "GNU General Public License" --> 
 <!-- tal como establece la Free Software Foundation. --> 
-<!-- Cumple con la especificaciÛn de AIML 1.01 --> 
+<!-- Cumple con la especificaciÔøΩn de AIML 1.01 --> 
 <!-- adoptada por la ALICE A.I. Foundation. --> 
-<!-- Sara_srai.aiml: Temas de discusiÛn general en AIML (RecursiÛn) --> 
+<!-- Sara_srai.aiml: Temas de discusiÔøΩn general en AIML (RecursiÔøΩn) --> 
 <!-- Creado por Adam Codony aka XGargoyle, Octubre 24, 2005 --> 
-<!-- VersiÛn Sara_srai-0.02 --> 
-<!-- ⁄ltima ModificaciÛn Marzo 15, 2006 -->
+<!-- VersiÔøΩn Sara_srai-0.02 --> 
+<!-- ÔøΩltima ModificaciÔøΩn Marzo 15, 2006 -->
 
 <category> 
-      <pattern>QUI…N INVENTO *</pattern>
+      <pattern>QUI√âN INVENTO *</pattern>
       <template> 
-        <srai>QUI…N INVENT” <star/></srai>
+        <srai>QUI√âN INVENT√ì <star/></srai>
       </template>
 </category>
 <category> 
       <pattern>QUIEN INVENTO *</pattern>
       <template> 
-        <srai>QUI…N INVENT” <star/></srai>
+        <srai>QUI√âN INVENT√ì <star/></srai>
       </template>
 </category>
 <category> 
-      <pattern>QUIEN INVENT” *</pattern>
+      <pattern>QUIEN INVENT√ì *</pattern>
       <template> 
-        <srai>QUI…N INVENT” <star/></srai>
+        <srai>QUI√âN INVENT√ì <star/></srai>
       </template>
 </category>
 <category> 
@@ -65,13 +65,13 @@
  <category> 
       <pattern>* FUTBOL</pattern>
       <template> 
-        <srai>JUEGAS F⁄TBOL</srai>
+        <srai>JUEGAS FÔøΩTBOL</srai>
       </template>
     </category>
  <category> 
-      <pattern>* F⁄TBOL</pattern>
+      <pattern>* FÔøΩTBOL</pattern>
       <template> 
-        <srai>JUEGAS F⁄TBOL</srai>
+        <srai>JUEGAS FÔøΩTBOL</srai>
       </template>
     </category>
  <category> 
@@ -81,19 +81,19 @@
       </template>
     </category>
  <category> 
-      <pattern>D”NDE QUEDA *</pattern>
+      <pattern>DÔøΩNDE QUEDA *</pattern>
       <template> 
-        <srai>D”NDE EST¡ <star/></srai>
+        <srai>DÔøΩNDE ESTÔøΩ <star/></srai>
       </template>
     </category>
      <category> 
       <pattern>DONDE QUEDA *</pattern>
       <template> 
-        <srai>D”NDE EST¡ <star/></srai>
+        <srai>DÔøΩNDE ESTÔøΩ <star/></srai>
       </template>
     </category>
 <category> 
-      <pattern>CU…NTAME *</pattern>
+      <pattern>CUÔøΩNTAME *</pattern>
       <template>
         <srai>GOSSIP</srai>
       </template>
@@ -108,24 +108,24 @@
       <pattern>QUIEN ES *</pattern>
       <template>
         <random>
-        <li><srai>QUI…N ES <star/></srai></li>
-        <li><srai>QUI…NESX<star/></srai></li>
+        <li><srai>QUIÔøΩN ES <star/></srai></li>
+        <li><srai>QUIÔøΩNESX<star/></srai></li>
         </random>
       </template>
     </category>
     <category> 
-      <pattern>QU… ES *</pattern>
+      <pattern>QUÔøΩ ES *</pattern>
       <template>
         <random>
-        <li><srai>QU… ES <star/></srai></li>
-        <li><srai>QU…ESX</srai></li>
+        <li><srai>QUÔøΩ ES <star/></srai></li>
+        <li><srai>QUÔøΩESX</srai></li>
         </random>
       </template>
     </category>
     <category> 
       <pattern>QUE ES *</pattern>
       <template> 
-        <srai>QU… ES <star/></srai>
+        <srai>QUÔøΩ ES <star/></srai>
       </template>
     </category>
     <category> 
@@ -255,25 +255,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>ADI”S</pattern>
+      <pattern>ADIÔøΩS</pattern>
       <template> 
         <srai>ADIOS</srai>
       </template>
     </category>
     <category> 
-      <pattern>ADI”S *</pattern>
+      <pattern>ADIÔøΩS *</pattern>
       <template> 
         <srai>ADIOS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* ADI”S</pattern>
+      <pattern>* ADIÔøΩS</pattern>
       <template> 
         <srai>ADIOS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ ADI”S *</pattern>
+      <pattern>_ ADIÔøΩS *</pattern>
       <template> 
         <srai>ADIOS</srai>
       </template>
@@ -585,25 +585,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>QU… SABES</pattern>
+      <pattern>QUÔøΩ SABES</pattern>
       <template> 
         <srai>AFICIONES</srai>
       </template>
     </category>
     <category> 
-      <pattern>QU… SABES *</pattern>
+      <pattern>QUÔøΩ SABES *</pattern>
       <template> 
         <srai>AFICIONES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… SABES</pattern>
+      <pattern>* QUÔøΩ SABES</pattern>
       <template> 
         <srai>AFICIONES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… SABES *</pattern>
+      <pattern>_ QUÔøΩ SABES *</pattern>
       <template> 
         <srai>AFICIONES</srai>
       </template>
@@ -939,25 +939,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>M¡QUINA</pattern>
+      <pattern>MÔøΩQUINA</pattern>
       <template> 
         <srai>ANTIBOT</srai>
       </template>
     </category>
     <category> 
-      <pattern>M¡QUINA *</pattern>
+      <pattern>MÔøΩQUINA *</pattern>
       <template> 
         <srai>ANTIBOT</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* M¡QUINA</pattern>
+      <pattern>* MÔøΩQUINA</pattern>
       <template> 
         <srai>ANTIBOT</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ M¡QUINA *</pattern>
+      <pattern>_ MÔøΩQUINA *</pattern>
       <template> 
         <srai>ANTIBOT</srai>
       </template>
@@ -1221,25 +1221,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE HIZO</pattern>
+      <pattern>QUIÔøΩN TE HIZO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE HIZO *</pattern>
+      <pattern>QUIÔøΩN TE HIZO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE HIZO</pattern>
+      <pattern>* QUIÔøΩN TE HIZO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE HIZO *</pattern>
+      <pattern>_ QUIÔøΩN TE HIZO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
@@ -1269,97 +1269,97 @@
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE HIZO</pattern>
+      <pattern>QUIÔøΩN TE HIZO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE HIZO *</pattern>
+      <pattern>QUIÔøΩN TE HIZO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE HIZO</pattern>
+      <pattern>* QUIÔøΩN TE HIZO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE HIZO *</pattern>
+      <pattern>_ QUIÔøΩN TE HIZO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>	
 	<category> 
-      <pattern>QUI…N TE CRE”</pattern>
+      <pattern>QUIÔøΩN TE CREÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE CRE” *</pattern>
+      <pattern>QUIÔøΩN TE CREÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE CRE”</pattern>
+      <pattern>* QUIÔøΩN TE CREÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE CRE” *</pattern>
+      <pattern>_ QUIÔøΩN TE CREÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE CREO</pattern>
+      <pattern>QUIÔøΩN TE CREO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE CREO *</pattern>
+      <pattern>QUIÔøΩN TE CREO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE CREO</pattern>
+      <pattern>* QUIÔøΩN TE CREO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE CREO *</pattern>
+      <pattern>_ QUIÔøΩN TE CREO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUIEN TE CRE”</pattern>
+      <pattern>QUIEN TE CREÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUIEN TE CRE” *</pattern>
+      <pattern>QUIEN TE CREÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUIEN TE CRE”</pattern>
+      <pattern>* QUIEN TE CREÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUIEN TE CRE” *</pattern>
+      <pattern>_ QUIEN TE CREÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
@@ -1389,73 +1389,73 @@
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE INVENT”</pattern>
+      <pattern>QUIÔøΩN TE INVENTÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE INVENT” *</pattern>
+      <pattern>QUIÔøΩN TE INVENTÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE INVENT”</pattern>
+      <pattern>* QUIÔøΩN TE INVENTÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE INVENT” *</pattern>
+      <pattern>_ QUIÔøΩN TE INVENTÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE INVENTO</pattern>
+      <pattern>QUIÔøΩN TE INVENTO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N TE INVENTO *</pattern>
+      <pattern>QUIÔøΩN TE INVENTO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N TE INVENTO</pattern>
+      <pattern>* QUIÔøΩN TE INVENTO</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N TE INVENTO *</pattern>
+      <pattern>_ QUIÔøΩN TE INVENTO *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUIEN TE INVENT”</pattern>
+      <pattern>QUIEN TE INVENTÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUIEN TE INVENT” *</pattern>
+      <pattern>QUIEN TE INVENTÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUIEN TE INVENT”</pattern>
+      <pattern>* QUIEN TE INVENTÔøΩ</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUIEN TE INVENT” *</pattern>
+      <pattern>_ QUIEN TE INVENTÔøΩ *</pattern>
       <template> 
         <srai>BOTMASTER</srai>
       </template>
@@ -1617,25 +1617,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>PELÕCULA</pattern>
+      <pattern>PELÔøΩCULA</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PELÕCULA *</pattern>
+      <pattern>PELÔøΩCULA *</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PELÕCULA</pattern>
+      <pattern>* PELÔøΩCULA</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PELÕCULA *</pattern>
+      <pattern>_ PELÔøΩCULA *</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
@@ -1665,25 +1665,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>PELÕCULAS</pattern>
+      <pattern>PELÔøΩCULAS</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PELÕCULAS *</pattern>
+      <pattern>PELÔøΩCULAS *</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PELÕCULAS</pattern>
+      <pattern>* PELÔøΩCULAS</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PELÕCULAS *</pattern>
+      <pattern>_ PELÔøΩCULAS *</pattern>
       <template> 
         <srai>CINE</srai>
       </template>
@@ -1935,25 +1935,25 @@
       </template>
     </category>	
 	<category> 
-      <pattern>MARR”N</pattern>
+      <pattern>MARRÔøΩN</pattern>
       <template> 
         <srai>COLOR</srai>
       </template>
     </category>
 	<category> 
-      <pattern>MARR”N *</pattern>
+      <pattern>MARRÔøΩN *</pattern>
       <template> 
         <srai>COLOR</srai>
       </template>
     </category>
     <category> 
-      <pattern>* MARR”N</pattern>
+      <pattern>* MARRÔøΩN</pattern>
       <template> 
         <srai>COLOR</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ MARR”N *</pattern>
+      <pattern>_ MARRÔøΩN *</pattern>
       <template> 
         <srai>COLOR</srai>
       </template>
@@ -2253,279 +2253,279 @@
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE ERES</pattern>
+      <pattern>DÔøΩNDE ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>D”NDE ERES *</pattern>
+      <pattern>DÔøΩNDE ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* D”NDE ERES</pattern>
+      <pattern>* DÔøΩNDE ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D”NDE ERES *</pattern>
+      <pattern>_ DÔøΩNDE ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>DONDE ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DONDE ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DONDE ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DONDE ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DND ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DND ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DND ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DND ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>DESDE D”NDE</pattern>
+      <pattern>DESDE DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>DESDE D”NDE *</pattern>
+      <pattern>DESDE DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* DESDE D”NDE</pattern>
+      <pattern>* DESDE DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ DESDE D”NDE *</pattern>
+      <pattern>_ DESDE DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>DSD D”NDE</pattern>
+      <pattern>DSD DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>DSD D”NDE *</pattern>
+      <pattern>DSD DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* DSD D”NDE</pattern>
+      <pattern>* DSD DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ DSD D”NDE *</pattern>
+      <pattern>_ DSD DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DSD DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DSD DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DSD DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DSD DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>D DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>D DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* D DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ D DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D D”NDE</pattern>
+      <pattern>D DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>D D”NDE *</pattern>
+      <pattern>D DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* D D”NDE</pattern>
+      <pattern>* D DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D D”NDE *</pattern>
+      <pattern>_ D DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>DE DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>DE DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai> <sr/>
+        <srai>DE DÔøΩNDE ERES</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DE DND</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DE DND *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>DE D”NDE</pattern>
+      <pattern>DE DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>DE D”NDE *</pattern>
+      <pattern>DE DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* DE D”NDE</pattern>
+      <pattern>* DE DÔøΩNDE</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ DE D”NDE *</pattern>
+      <pattern>_ DE DÔøΩNDE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>LUGAR ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>LUGAR ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>* LUGAR ERES</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ LUGAR ERES *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>ERES DE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ ERES DE *</pattern>
       <template> 
-        <srai>DE D”NDE ERES</srai>
+        <srai>DE DÔøΩNDE ERES</srai>
       </template>
     </category>
 	<category> 
@@ -2571,45 +2571,45 @@
       </template>
     </category>
 	<category> 
-      <pattern>DÕA *</pattern>
+      <pattern>DÔøΩA *</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* DÕA</pattern>
+      <pattern>* DÔøΩA</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ DÕA *</pattern>
+      <pattern>_ DÔøΩA *</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>DIA</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>DIA *</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>* DIA</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DIA *</pattern>
       <template> 
-        <srai>DÕA</srai>
+        <srai>DÔøΩA</srai>
       </template>
     </category>
 	<category> 
@@ -2661,249 +2661,249 @@
       </template>
     </category>
           <category> 
-      <pattern>D”NDE ESTA *</pattern>
+      <pattern>DÔøΩNDE ESTA *</pattern>
       <template> 
-        <srai>D”NDE EST¡ <star/></srai>
+        <srai>DÔøΩNDE ESTÔøΩ <star/></srai>
       </template>
     </category>
       <category> 
-      <pattern>DONDE EST¡ *</pattern>
+      <pattern>DONDE ESTÔøΩ *</pattern>
       <template> 
-        <srai>D”NDE EST¡ <star/></srai>
+        <srai>DÔøΩNDE ESTÔøΩ <star/></srai>
       </template>
     </category>
       <category> 
       <pattern>DONDE ESTA *</pattern>
       <template> 
-        <srai>D”NDE EST¡ <star/></srai>
+        <srai>DÔøΩNDE ESTÔøΩ <star/></srai>
       </template>
     </category>
 	<category> 
-      <pattern>DONDE EST¡</pattern>
+      <pattern>DONDE ESTÔøΩ</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE ESTA</pattern>
+      <pattern>DÔøΩNDE ESTA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>DONDE ESTA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE QUEDA</pattern>
+      <pattern>DÔøΩNDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE QUEDA</pattern>
+      <pattern>DÔøΩNDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
     <category> 
-      <pattern>* D”NDE QUEDA</pattern>
+      <pattern>* DÔøΩNDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D”NDE QUEDA</pattern>
+      <pattern>_ DÔøΩNDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
-      </template>
-    </category>
-	<category> 
-      <pattern>DONDE QUEDA</pattern>
-      <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>DONDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
+      </template>
+    </category>
+	<category> 
+      <pattern>DONDE QUEDA</pattern>
+      <template> 
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* DONDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DONDE QUEDA</pattern>
       <template> 
-        <srai>D”NDE EST¡</srai>
+        <srai>DÔøΩNDE ESTÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE EST¡S *</pattern>
+      <pattern>DÔøΩNDE ESTÔøΩS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* D”NDE EST¡S</pattern>
+      <pattern>* DÔøΩNDE ESTÔøΩS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D”NDE EST¡S *</pattern>
+      <pattern>_ DÔøΩNDE ESTÔøΩS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>DONDE EST¡S</pattern>
+      <pattern>DONDE ESTÔøΩS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
-      <pattern>DONDE EST¡S *</pattern>
+      <pattern>DONDE ESTÔøΩS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* DONDE EST¡S</pattern>
+      <pattern>* DONDE ESTÔøΩS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ DONDE EST¡S *</pattern>
+      <pattern>_ DONDE ESTÔøΩS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE ESTAS</pattern>
+      <pattern>DÔøΩNDE ESTAS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
-      <pattern>D”NDE ESTAS *</pattern>
+      <pattern>DÔøΩNDE ESTAS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* D”NDE ESTAS</pattern>
+      <pattern>* DÔøΩNDE ESTAS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D”NDE ESTAS *</pattern>
+      <pattern>_ DÔøΩNDE ESTAS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>DONDE ESTAS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
       <pattern>DONDE ESTAS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DONDE ESTAS</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DONDE ESTAS *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>D”NDE VIVES</pattern>
+      <pattern>DÔøΩNDE VIVES</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
-      <pattern>D”NDE VIVES *</pattern>
+      <pattern>DÔøΩNDE VIVES *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* D”NDE VIVES</pattern>
+      <pattern>* DÔøΩNDE VIVES</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ D”NDE VIVES *</pattern>
+      <pattern>_ DÔøΩNDE VIVES *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>DONDE VIVES</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
       <pattern>DONDE VIVES *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* DONDE VIVES</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DONDE VIVES *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>TU CASA</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
     <category> 
       <pattern>TU CASA *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai> <sr/>
+        <srai>DÔøΩNDE ESTÔøΩS</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* TU CASA</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ TU CASA *</pattern>
       <template> 
-        <srai>D”NDE EST¡S</srai>
+        <srai>DÔøΩNDE ESTÔøΩS</srai>
       </template>
     </category>
 	<category> 
@@ -2943,25 +2943,25 @@
       </template>
     </category>
     <category> 
-      <pattern>A—OS</pattern>
+      <pattern>AÔøΩOS</pattern>
       <template> 
         <srai>EDAD</srai>
       </template>
     </category>
     <category> 
-      <pattern>A—OS *</pattern>
+      <pattern>AÔøΩOS *</pattern>
       <template> 
         <srai>EDAD</srai>
       </template>
     </category>
     <category> 
-      <pattern>* A—OS</pattern>
+      <pattern>* AÔøΩOS</pattern>
       <template> 
         <srai>EDAD</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ A—OS *</pattern>
+      <pattern>_ AÔøΩOS *</pattern>
       <template> 
         <srai>EDAD</srai>
       </template>
@@ -3489,25 +3489,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>EST⁄PIDA</pattern>
+      <pattern>ESTÔøΩPIDA</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>EST⁄PIDA *</pattern>
+      <pattern>ESTÔøΩPIDA *</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* EST⁄PIDA</pattern>
+      <pattern>* ESTÔøΩPIDA</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ EST⁄PIDA *</pattern>
+      <pattern>_ ESTÔøΩPIDA *</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
@@ -3561,25 +3561,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>EXTRA—A</pattern>
+      <pattern>EXTRAÔøΩA</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>EXTRA—A *</pattern>
+      <pattern>EXTRAÔøΩA *</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* EXTRA—A</pattern>
+      <pattern>* EXTRAÔøΩA</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ EXTRA—A *</pattern>
+      <pattern>_ EXTRAÔøΩA *</pattern>
       <template> 
         <srai>ERES RARA</srai>
       </template>
@@ -3743,145 +3743,145 @@
 	<category> 
       <pattern>CASADO</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>CASADO *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* CASADO</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ CASADO *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>CSD</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>CSD *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* CSD</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ CSD *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>KASADA</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>KASADA *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* KASADA</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ KASADA *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>KSD</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>KSD *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* KSD</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ KSD *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>SOLTERO</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>SOLTERO *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* SOLTERO</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ SOLTERO *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>TIENES NOVIA</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 	<category> 
       <pattern>TIENES NOVIA *</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
     <category> 
       <pattern>* TIENES NOVIA</pattern>
       <template> 
-        <srai>EST¡S CASADO</srai>
+        <srai>ESTÔøΩS CASADO</srai>
       </template>
     </category>
 <!-- 	<category> 
       <pattern>_ TIENES NOVIA *</pattern>
       <template> 
-        <srai>EST¡S CASADA</srai>
+        <srai>ESTÔøΩS CASADA</srai>
       </template>
     </category> -->
 	<category> 
@@ -3987,25 +3987,25 @@
       </template>
     </category>	
 	<category> 
-      <pattern>QU… ESTUDIAS</pattern>
+      <pattern>QUÔøΩ ESTUDIAS</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ESTUDIAS *</pattern>
+      <pattern>QUÔøΩ ESTUDIAS *</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ESTUDIAS</pattern>
+      <pattern>* QUÔøΩ ESTUDIAS</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ESTUDIAS *</pattern>
+      <pattern>_ QUÔøΩ ESTUDIAS *</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
@@ -4035,25 +4035,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>QU… TRABAJAS</pattern>
+      <pattern>QUÔøΩ TRABAJAS</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… TRABAJAS *</pattern>
+      <pattern>QUÔøΩ TRABAJAS *</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… TRABAJAS</pattern>
+      <pattern>* QUÔøΩ TRABAJAS</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… TRABAJAS *</pattern>
+      <pattern>_ QUÔøΩ TRABAJAS *</pattern>
       <template> 
         <srai>ESTUDIAS O TRABAJAS</srai>
       </template>
@@ -4293,309 +4293,309 @@
       </template>
     </category>
 	<category> 
-      <pattern>FAMÕLIA *</pattern>
+      <pattern>FAMÔøΩLIA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* FAMÕLIA</pattern>
+      <pattern>* FAMÔøΩLIA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ FAMÕLIA *</pattern>
+      <pattern>_ FAMÔøΩLIA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>FAMILIA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>FAMILIA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* FAMILIA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ FAMILIA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PADRE</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PADRE *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PADRE</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PADRE *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PAP¡</pattern>
+      <pattern>PAPÔøΩ</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PAP¡ *</pattern>
+      <pattern>PAPÔøΩ *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PAP¡</pattern>
+      <pattern>* PAPÔøΩ</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PAP¡ *</pattern>
+      <pattern>_ PAPÔøΩ *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PAPA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PAPA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PAPA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PAPA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MADRE</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MADRE *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* MADRE</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ MADRE *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>MAM¡</pattern>
+      <pattern>MAMÔøΩ</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>MAM¡ *</pattern>
+      <pattern>MAMÔøΩ *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* MAM¡</pattern>
+      <pattern>* MAMÔøΩ</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ MAM¡ *</pattern>
+      <pattern>_ MAMÔøΩ *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MAMA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MAMA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* MAMA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ MAMA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PADRES</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PADRES *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PADRES</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PADRES *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMO</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMO *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PRIMO</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PRIMO *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMOS</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMOS *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PRIMOS</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PRIMOS *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PRIMA</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PRIMA *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMAS</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>PRIMAS *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
     <category> 
       <pattern>* PRIMAS</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PRIMAS *</pattern>
       <template> 
-        <srai>FAMÕLIA</srai>
+        <srai>FAMÔøΩLIA</srai>
       </template>
     </category>
 	<category> 
@@ -5277,25 +5277,25 @@
       </template>
     </category>	
 	<category> 
-      <pattern>BUENOS DÕAS</pattern>
+      <pattern>BUENOS D√çAS</pattern>
       <template> 
         <srai>HOLA</srai>
       </template>
     </category>
     <category> 
-      <pattern>BUENOS DÕAS *</pattern>
+      <pattern>BUENOS D√çAS *</pattern>
       <template> 
         <srai>HOLA</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* BUENOS DÕAS</pattern>
+      <pattern>* BUENOS D√çAS</pattern>
       <template> 
         <srai>HOLA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ BUENOS DÕAS *</pattern>
+      <pattern>_ BUENOS D√çAS *</pattern>
       <template> 
         <srai>HOLA</srai>
       </template>
@@ -5529,25 +5529,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>REÕR</pattern>
+      <pattern>REÔøΩR</pattern>
       <template> 
         <srai>HUMOR</srai>
       </template>
     </category>
 	<category> 
-      <pattern>REÕR *</pattern>
+      <pattern>REÔøΩR *</pattern>
       <template> 
         <srai>HUMOR</srai>
       </template>
     </category>
     <category> 
-      <pattern>* REÕR</pattern>
+      <pattern>* REÔøΩR</pattern>
       <template> 
         <srai>HUMOR</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ REÕR *</pattern>
+      <pattern>_ REÔøΩR *</pattern>
       <template> 
         <srai>HUMOR</srai>
       </template>
@@ -5943,25 +5943,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>PR”XIMO</pattern>
+      <pattern>PRÔøΩXIMO</pattern>
       <template> 
         <srai>LEJOS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PR”XIMO *</pattern>
+      <pattern>PRÔøΩXIMO *</pattern>
       <template> 
         <srai>LEJOS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PR”XIMO</pattern>
+      <pattern>* PRÔøΩXIMO</pattern>
       <template> 
         <srai>LEJOS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PR”XIMO *</pattern>
+      <pattern>_ PRÔøΩXIMO *</pattern>
       <template> 
         <srai>LEJOS</srai>
       </template>
@@ -6027,45 +6027,45 @@
       </template>
     </category>	
 	<category> 
-      <pattern>M¡S *</pattern>
+      <pattern>MÔøΩS *</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* M¡S</pattern>
+      <pattern>* MÔøΩS</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ M¡S *</pattern>
+      <pattern>_ MÔøΩS *</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>MAS</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>MAS *</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
     <category> 
       <pattern>* MAS</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ MAS *</pattern>
       <template> 
-        <srai>M¡S</srai>
+        <srai>MÔøΩS</srai>
       </template>
     </category>
 	<category> 
@@ -6195,285 +6195,285 @@
       </template>
     </category>
 	<category> 
-      <pattern>C”MO ERES</pattern>
+      <pattern>CÔøΩMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO ERES *</pattern>
+      <pattern>CÔøΩMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai> <sr/>
+        <srai>MI DESCRIPCIÔøΩN</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO ERES</pattern>
+      <pattern>* CÔøΩMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO ERES *</pattern>
+      <pattern>_ CÔøΩMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>COMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai> <sr/>
+        <srai>MI DESCRIPCIÔøΩN</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* COMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>K”MO ERES</pattern>
+      <pattern>KÔøΩMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
-      <pattern>K”MO ERES *</pattern>
+      <pattern>KÔøΩMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai> <sr/>
+        <srai>MI DESCRIPCIÔøΩN</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* K”MO ERES</pattern>
+      <pattern>* KÔøΩMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ K”MO ERES *</pattern>
+      <pattern>_ KÔøΩMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>KOMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>KOMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai> <sr/>
+        <srai>MI DESCRIPCIÔøΩN</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* KOMO ERES</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ KOMO ERES *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>DELGADO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>DELGADO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* DELGADO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ DELGADO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>GORDO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>GORDO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* GORDO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ GORDO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>TUS MEDIDAS</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>TUS MEDIDAS *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* TUS MEDIDAS</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ TUS MEDIDAS *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>PESO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>PESO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* PESO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PESO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>ES TU PESO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>ES TU PESO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* ES TU PESO</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ ES TU PESO *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>PESAS</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>PESAS *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* PESAS</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PESAS *</pattern>
       <template> 
-        <srai>MI DESCRIPCI”N</srai>
+        <srai>MI DESCRIPCIÔøΩN</srai>
       </template>
     </category>
 	<category>
-      <pattern>MI M⁄SICA FAVORITA *</pattern>
+      <pattern>MI MÔøΩSICA FAVORITA *</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* MI M⁄SICA FAVORITA</pattern>
+      <pattern>* MI MÔøΩSICA FAVORITA</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ MI M⁄SICA FAVORITA *</pattern>
+      <pattern>_ MI MÔøΩSICA FAVORITA *</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MI MUSICA FAVORITA</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
     <category> 
       <pattern>MI MUSICA FAVORITA *</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
     <category> 
       <pattern>* MI MUSICA FAVORITA</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ MI MUSICA FAVORITA *</pattern>
       <template> 
-        <srai>MI M⁄SICA FAVORITA</srai>
+        <srai>MI MÔøΩSICA FAVORITA</srai>
       </template>
     </category>
 	<category> 
@@ -6681,93 +6681,93 @@
       </template>
     </category>
 	<category> 
-      <pattern>M⁄SICA *</pattern>
+      <pattern>MÔøΩSICA *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* M⁄SICA</pattern>
+      <pattern>* MÔøΩSICA</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ M⁄SICA *</pattern>
+      <pattern>_ MÔøΩSICA *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
       <pattern>MUSICA</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
       <pattern>MUSICA *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
       <pattern>* MUSICA</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ MUSICA *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>CANCI”N</pattern>
+      <pattern>CANCIÔøΩN</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
-      <pattern>CANCI”N *</pattern>
+      <pattern>CANCIÔøΩN *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* CANCI”N</pattern>
+      <pattern>* CANCIÔøΩN</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ CANCI”N *</pattern>
+      <pattern>_ CANCIÔøΩN *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
       <pattern>CANCION</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
       <pattern>CANCION *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
     <category> 
       <pattern>* CANCION</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ CANCION *</pattern>
       <template> 
-        <srai>M⁄SICA</srai>
+        <srai>MÔøΩSICA</srai>
       </template>
     </category>
 	<category> 
@@ -6855,25 +6855,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>NING⁄N</pattern>
+      <pattern>NINGÔøΩN</pattern>
       <template> 
         <srai>NADA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>NING⁄N *</pattern>
+      <pattern>NINGÔøΩN *</pattern>
       <template> 
         <srai>NADA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* NING⁄N</pattern>
+      <pattern>* NINGÔøΩN</pattern>
       <template> 
         <srai>NADA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ NING⁄N *</pattern>
+      <pattern>_ NINGÔøΩN *</pattern>
       <template> 
         <srai>NADA</srai>
       </template>
@@ -7349,111 +7349,111 @@
       </template>
     </category>
 	<category> 
-      <pattern>OPINI”N *</pattern>
+      <pattern>OPINIÔøΩN *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
     <category> 
-      <pattern>* OPINI”N</pattern>
+      <pattern>* OPINIÔøΩN</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ OPINI”N *</pattern>
+      <pattern>_ OPINIÔøΩN *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>OPINAS</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>OPINAS *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* OPINAS</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ OPINAS *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
 	  <pattern>PIENSAS</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>PIENSAS *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* PIENSAS</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category>
 <!-- 	<category> 
       <pattern>_ PIENSAS *</pattern>
       <template> 
-        <srai>OPINI”N</srai>
+        <srai>OPINIÔøΩN</srai>
       </template>
     </category> -->
 	<category> 
-      <pattern>PARA QU… SIRVE UN BOT *</pattern>
+      <pattern>PARA QUÔøΩ SIRVE UN BOT *</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PARA QU… SIRVE UN BOT</pattern>
+      <pattern>* PARA QUÔøΩ SIRVE UN BOT</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PARA QU… SIRVE UN BOT *</pattern>
+      <pattern>_ PARA QUÔøΩ SIRVE UN BOT *</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
 	<category> 
       <pattern>PARA QUE SIRVE UN BOT</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>	
 	<category> 
       <pattern>PARA QUE SIRVE UN BOT *</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
     <category> 
       <pattern>* PARA QUE SIRVE UN BOT</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PARA QUE SIRVE UN BOT *</pattern>
       <template> 
-        <srai>PARA QU… SIRVE UN BOT</srai>
+        <srai>PARA QUÔøΩ SIRVE UN BOT</srai>
       </template>
     </category>
 	<category> 
@@ -7517,25 +7517,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>C”DIGO</pattern>
+      <pattern>CÔøΩDIGO</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
 	<category> 
-      <pattern>C”DIGO *</pattern>
+      <pattern>CÔøΩDIGO *</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
     <category> 
-      <pattern>* C”DIGO</pattern>
+      <pattern>* CÔøΩDIGO</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”DIGO *</pattern>
+      <pattern>_ CÔøΩDIGO *</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
@@ -7565,25 +7565,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>CONTRASE—A</pattern>
+      <pattern>CONTRASEÔøΩA</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
 	<category> 
-      <pattern>CONTRASE—A *</pattern>
+      <pattern>CONTRASEÔøΩA *</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
     <category> 
-      <pattern>* CONTRASE—A</pattern>
+      <pattern>* CONTRASEÔøΩA</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ CONTRASE—A *</pattern>
+      <pattern>_ CONTRASEÔøΩA *</pattern>
       <template> 
         <srai>PASSWORD</srai>
       </template>
@@ -7613,297 +7613,297 @@
       </template>
     </category>
 	<category> 
-      <pattern>PAT…TICO *</pattern>
+      <pattern>PATÔøΩTICO *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PAT…TICO</pattern>
+      <pattern>* PATÔøΩTICO</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PAT…TICO *</pattern>
+      <pattern>_ PATÔøΩTICO *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>PATETICO</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>PATETICO *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
     <category> 
       <pattern>* PATETICO</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PATETICO *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PAT…TICA</pattern>
+      <pattern>PATÔøΩTICA</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PAT…TICA *</pattern>
+      <pattern>PATÔøΩTICA *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PAT…TICA</pattern>
+      <pattern>* PATÔøΩTICA</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PAT…TICA *</pattern>
+      <pattern>_ PATÔøΩTICA *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>PATETICA</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>PATETICA *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
     <category> 
       <pattern>* PATETICA</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PATETICA *</pattern>
       <template> 
-        <srai>PAT…TICO</srai>
+        <srai>PATÔøΩTICO</srai>
       </template>
     </category>	
 	<category> 
-      <pattern>POESÕA *</pattern>
+      <pattern>POESÔøΩA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
-      <pattern>* POESÕA</pattern>
+      <pattern>* POESÔøΩA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ POESÕA *</pattern>
+      <pattern>_ POESÔøΩA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>POESIA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>POESIA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>* POESIA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ POESIA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>POEMA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>POEMA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>* POEMA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ POEMA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>POETA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>POETA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
     <category> 
       <pattern>* POETA</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ POETA *</pattern>
       <template> 
-        <srai>POESÕA</srai>
+        <srai>POESÔøΩA</srai>
       </template>
     </category>
 <!-- 	<category> 
-      <pattern>POR QU… *</pattern>
+      <pattern>POR QUÔøΩ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
     <category> 
-      <pattern>* POR QU…</pattern>
+      <pattern>* POR QUÔøΩ</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ POR QU… *</pattern>
+      <pattern>_ POR QUÔøΩ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>POR QUE</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>POR QUE *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* POR QUE</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ POR QUE *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PORQU…</pattern>
+      <pattern>PORQUÔøΩ</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PORQU… *</pattern>
+      <pattern>PORQUÔøΩ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PORQU…</pattern>
+      <pattern>* PORQUÔøΩ</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PORQU… *</pattern>
+      <pattern>_ PORQUÔøΩ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>PORQUE</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>PORQUE *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* PORQUE</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ PORQUE *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>XQ</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>XQ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* XQ</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ XQ *</pattern>
       <template> 
-        <srai>POR QU…</srai>
+        <srai>POR QUÔøΩ</srai>
       </template>
     </category>-->
 	<category>  
@@ -7945,1156 +7945,1156 @@
 	<category> 
       <pattern>QUE</pattern>
       <template> 
-        <srai>QU…</srai>
+        <srai>QUÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ENTIENDES *</pattern>
+      <pattern>QUÔøΩ ENTIENDES *</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ENTIENDES</pattern>
+      <pattern>* QUÔøΩ ENTIENDES</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ENTIENDES *</pattern>
+      <pattern>_ QUÔøΩ ENTIENDES *</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ENTIENDES</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ENTIENDES *</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE ENTIENDES</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE ENTIENDES *</pattern>
       <template> 
-        <srai>QU… ENTIENDES</srai>
+        <srai>QUÔøΩ ENTIENDES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ERES *</pattern>
+      <pattern>QUÔøΩ ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ERES</pattern>
+      <pattern>* QUÔøΩ ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ERES *</pattern>
+      <pattern>_ QUÔøΩ ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N ERES</pattern>
+      <pattern>QUIÔøΩN ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N ERES *</pattern>
+      <pattern>QUIÔøΩN ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N ERES</pattern>
+      <pattern>* QUIÔøΩN ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUI…N ERES *</pattern>
+      <pattern>_ QUIÔøΩN ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUIEN ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUIEN ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUIEN ERES</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUIEN ERES *</pattern>
       <template> 
-        <srai>QU… ERES</srai>
+        <srai>QUÔøΩ ERES</srai>
       </template>
     </category>
-	<!-- ELIMINADOS comodines al final de preguntas genÈricas como workaround -->
+	<!-- ELIMINADOS comodines al final de preguntas genÔøΩricas como workaround -->
     <category> 
-      <pattern>* QU… ES</pattern>
+      <pattern>* QUÔøΩ ES</pattern>
       <template> 
-        <srai>QU… ES</srai>
+        <srai>QUÔøΩ ES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ES</pattern>
       <template> 
-        <srai>QU… ES</srai>
+        <srai>QUÔøΩ ES</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE ES</pattern>
       <template> 
-        <srai>QU… ES</srai>
+        <srai>QUÔøΩ ES</srai>
       </template>
     </category>
 <!-- 	<category> 
-      <pattern>QU… ES *</pattern>
+      <pattern>QUÔøΩ ES *</pattern>
       <template> 
-        <srai>QU…ESX</srai>
+        <srai>QUÔøΩESX</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ES *</pattern>
       <template> 
-        <srai>QU…ESX</srai>
+        <srai>QUÔøΩESX</srai>
       </template>
     </category> -->
 	<category> 
       <pattern>QUE ES X</pattern>
       <template> 
-        <srai>QU… ES X</srai>
+        <srai>QUÔøΩ ES X</srai>
       </template>
     </category> 
 	<category>  
-      <pattern>QU… ES UN BOT *</pattern>
+      <pattern>QUÔøΩ ES UN BOT *</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ES UN BOT</pattern>
+      <pattern>* QUÔøΩ ES UN BOT</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ES UN BOT *</pattern>
+      <pattern>_ QUÔøΩ ES UN BOT *</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ES UN BOT</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ES UN BOT *</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE ES UN BOT</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE ES UN BOT *</pattern>
       <template> 
-        <srai>QU… ES UN BOT</srai>
+        <srai>QUÔøΩ ES UN BOT</srai>
       </template>
     </category>
        <category> 
-      <pattern>* EST¡S HACIENDO</pattern>
+      <pattern>* ESTÔøΩS HACIENDO</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	 <category> 
-      <pattern>QU… EST¡S HACIENDO</pattern>
+      <pattern>QUÔøΩ ESTÔøΩS HACIENDO</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… HACES *</pattern>
+      <pattern>QUÔøΩ HACES *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… HACES</pattern>
+      <pattern>* QUÔøΩ HACES</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… HACES *</pattern>
+      <pattern>_ QUÔøΩ HACES *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE HACES</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE HACES *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE HACES</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE HACES *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ENSE—AS</pattern>
+      <pattern>QUÔøΩ ENSEÔøΩAS</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ENSE—AS *</pattern>
+      <pattern>QUÔøΩ ENSEÔøΩAS *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ENSE—AS</pattern>
+      <pattern>* QUÔøΩ ENSEÔøΩAS</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ENSE—AS *</pattern>
+      <pattern>_ QUÔøΩ ENSEÔøΩAS *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUE ENSE—AS</pattern>
+      <pattern>QUE ENSEÔøΩAS</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUE ENSE—AS *</pattern>
+      <pattern>QUE ENSEÔøΩAS *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUE ENSE—AS</pattern>
+      <pattern>* QUE ENSEÔøΩAS</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QUE ENSE—AS *</pattern>
+      <pattern>_ QUE ENSEÔøΩAS *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>PUEDES ENSE—AR</pattern>
+      <pattern>PUEDES ENSEÔøΩAR</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>	
 	<category> 
-      <pattern>PUEDES ENSE—AR *</pattern>
+      <pattern>PUEDES ENSEÔøΩAR *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* PUEDES ENSE—AR</pattern>
+      <pattern>* PUEDES ENSEÔøΩAR</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ PUEDES ENSE—AR *</pattern>
+      <pattern>_ PUEDES ENSEÔøΩAR *</pattern>
       <template> 
-        <srai>QU… HACES</srai>
+        <srai>QUÔøΩ HACES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… ME RECOMIENDAS *</pattern>
+      <pattern>QUÔøΩ ME RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… ME RECOMIENDAS</pattern>
+      <pattern>* QUÔøΩ ME RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… ME RECOMIENDAS *</pattern>
+      <pattern>_ QUÔøΩ ME RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE ME RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>QUE ME RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE ME RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE ME RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… RECOMIENDAS</pattern>
+      <pattern>QUÔøΩ RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… RECOMIENDAS *</pattern>
+      <pattern>QUÔøΩ RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… RECOMIENDAS</pattern>
+      <pattern>* QUÔøΩ RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… RECOMIENDAS *</pattern>
+      <pattern>_ QUÔøΩ RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>QUE RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
       <pattern>* RECOMIENDAS</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ RECOMIENDAS *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>RECOMIENDES</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>	
 	<category> 
       <pattern>RECOMIENDES *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
     <category> 
       <pattern>* RECOMIENDES</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ RECOMIENDES *</pattern>
       <template> 
-        <srai>QU… ME RECOMIENDAS</srai>
+        <srai>QUÔøΩ ME RECOMIENDAS</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… TAL *</pattern>
+      <pattern>QUÔøΩ TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* QU… TAL</pattern>
+      <pattern>* QUÔøΩ TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… TAL *</pattern>
+      <pattern>_ QUÔøΩ TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* QUE TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>Q TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>Q TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* Q TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ Q TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>KE TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>KE TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* KE TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ KE TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>K TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>K TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* K TAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ K TAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>QTAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>QTAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* QTAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QTAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>KTAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>KTAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* KTAL</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ KTAL *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO EST¡S</pattern>
+      <pattern>CÔøΩMO ESTÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO EST¡S *</pattern>
+      <pattern>CÔøΩMO ESTÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO EST¡S</pattern>
+      <pattern>* CÔøΩMO ESTÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO EST¡S *</pattern>
+      <pattern>_ CÔøΩMO ESTÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>C”MO ESTAS</pattern>
+      <pattern>CÔøΩMO ESTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO ESTAS *</pattern>
+      <pattern>CÔøΩMO ESTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO ESTAS</pattern>
+      <pattern>* CÔøΩMO ESTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO ESTAS *</pattern>
+      <pattern>_ CÔøΩMO ESTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>COMO EST¡S</pattern>
+      <pattern>COMO ESTÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>COMO EST¡S *</pattern>
+      <pattern>COMO ESTÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* COMO EST¡S</pattern>
+      <pattern>* COMO ESTÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ COMO EST¡S *</pattern>
+      <pattern>_ COMO ESTÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO ESTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>COMO ESTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* COMO ESTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO ESTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>ST¡S</pattern>
+      <pattern>STÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>ST¡S *</pattern>
+      <pattern>STÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* ST¡S</pattern>
+      <pattern>* STÔøΩS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ ST¡S *</pattern>
+      <pattern>_ STÔøΩS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>STAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>STAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* STAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ STAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>C”MO VA</pattern>
+      <pattern>CÔøΩMO VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO VA *</pattern>
+      <pattern>CÔøΩMO VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO VA</pattern>
+      <pattern>* CÔøΩMO VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO VA *</pattern>
+      <pattern>_ CÔøΩMO VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>COMO VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* COMO VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>	
 	<category> 
-      <pattern>C”MO ESTAMOS</pattern>
+      <pattern>CÔøΩMO ESTAMOS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO ESTAMOS *</pattern>
+      <pattern>CÔøΩMO ESTAMOS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO ESTAMOS</pattern>
+      <pattern>* CÔøΩMO ESTAMOS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO ESTAMOS *</pattern>
+      <pattern>_ CÔøΩMO ESTAMOS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO ESTAMOS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>COMO ESTAMOS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* COMO ESTAMOS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO ESTAMOS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>C”MO TE V¡</pattern>
+      <pattern>CÔøΩMO TE VÔøΩ</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO TE V¡ *</pattern>
+      <pattern>CÔøΩMO TE VÔøΩ *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO TE V¡</pattern>
+      <pattern>* CÔøΩMO TE VÔøΩ</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO TE V¡ *</pattern>
+      <pattern>_ CÔøΩMO TE VÔøΩ *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>COMO TE V¡</pattern>
+      <pattern>COMO TE VÔøΩ</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>COMO TE V¡ *</pattern>
+      <pattern>COMO TE VÔøΩ *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* COMO TE V¡</pattern>
+      <pattern>* COMO TE VÔøΩ</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ COMO TE V¡ *</pattern>
+      <pattern>_ COMO TE VÔøΩ *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>C”MO TE VA</pattern>
+      <pattern>CÔøΩMO TE VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>C”MO TE VA *</pattern>
+      <pattern>CÔøΩMO TE VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* C”MO TE VA</pattern>
+      <pattern>* CÔøΩMO TE VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ C”MO TE VA *</pattern>
+      <pattern>_ CÔøΩMO TE VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO TE VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>COMO TE VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* COMO TE VA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… PASA</pattern>
+      <pattern>QUÔøΩ PASA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>QU… PASA *</pattern>
+      <pattern>QUÔøΩ PASA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QU… PASA</pattern>
+      <pattern>* QUÔøΩ PASA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… PASA *</pattern>
+      <pattern>_ QUÔøΩ PASA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE PASA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>QUE PASA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>* QUE PASA</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE PASA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO TE VA *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>ME CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>ME CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* ME CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ ME CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>TE CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>TE CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* TE CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ TE CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QU… CUENTAS</pattern>
+      <pattern>QUÔøΩ CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
-      <pattern>QU… CUENTAS *</pattern>
+      <pattern>QUÔøΩ CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
-      <pattern>* QU… CUENTAS</pattern>
+      <pattern>* QUÔøΩ CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ QU… CUENTAS *</pattern>
+      <pattern>_ QUÔøΩ CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>QUE CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
     <category> 
       <pattern>QUE CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai> <sr/>
+        <srai>QUÔøΩ TAL</srai> <sr/>
       </template>
     </category>
     <category> 
       <pattern>* QUE CUENTAS</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ QUE CUENTAS *</pattern>
       <template> 
-        <srai>QU… TAL</srai>
+        <srai>QUÔøΩ TAL</srai>
       </template>
     </category>
 
 	<category> 
-      <pattern>QUI…N ES *</pattern>
+      <pattern>QUIÔøΩN ES *</pattern>
       <template> 
-        <srai>QUI…NESX</srai>
+        <srai>QUIÔøΩNESX</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N ES *</pattern>
+      <pattern>QUIÔøΩN ES *</pattern>
       <template> 
-        <srai>QUI…NESX</srai>
+        <srai>QUIÔøΩNESX</srai>
       </template>
     </category> 
 	
 	<category> 
-      <pattern>* QUI…N ES</pattern>
+      <pattern>* QUIÔøΩN ES</pattern>
       <template> 
-        <srai>QUI…N ES</srai>
+        <srai>QUIÔøΩN ES</srai>
       </template>
     </category>
 	<category> 
-      <pattern>QUI…N ES</pattern>
+      <pattern>QUIÔøΩN ES</pattern>
       <template> 
-        <srai>QUI…N ES</srai>
+        <srai>QUIÔøΩN ES</srai>
       </template>
     </category>
     <category> 
-      <pattern>* QUI…N ES</pattern>
+      <pattern>* QUIÔøΩN ES</pattern>
       <template> 
-        <srai>QUI…N ES</srai>
+        <srai>QUIÔøΩN ES</srai>
       </template>
     </category>
 	<category> 
@@ -9436,21 +9436,21 @@
       </template>
     </category>
     <category> 
-      <pattern>* SÕ</pattern>
+      <pattern>* SÔøΩ</pattern>
       <template> 
-        <srai>SÕ</srai>
+        <srai>SÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>SI</pattern>
       <template> 
-        <srai>SÕ</srai>
+        <srai>SÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* SI</pattern>
       <template> 
-        <srai>SÕ</srai>
+        <srai>SÔøΩ</srai>
       </template>
     </category>
 	<category> 
@@ -9496,25 +9496,25 @@
       </template>
     </category>
 	<category> 
-      <pattern>VIVO AQUÕ</pattern>
+      <pattern>VIVO AQUÔøΩ</pattern>
       <template> 
         <srai>SOY DE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>VIVO AQUÕ *</pattern>
+      <pattern>VIVO AQUÔøΩ *</pattern>
       <template> 
         <srai>SOY DE</srai>
       </template>
     </category>
     <category> 
-      <pattern>* VIVO AQUÕ</pattern>
+      <pattern>* VIVO AQUÔøΩ</pattern>
       <template> 
         <srai>SOY DE</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ VIVO AQUÕ *</pattern>
+      <pattern>_ VIVO AQUÔøΩ *</pattern>
       <template> 
         <srai>SOY DE</srai>
       </template>
@@ -9972,69 +9972,69 @@
       </template>
     </category>
 	<category> 
-      <pattern>TAMBI…N *</pattern>
+      <pattern>TAMBIÔøΩN *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
-      <pattern>* TAMBI…N</pattern>
+      <pattern>* TAMBIÔøΩN</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ TAMBI…N *</pattern>
+      <pattern>_ TAMBIÔøΩN *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>TAMBIEN</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>TAMBIEN *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* TAMBIEN</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ TAMBIEN *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>TAMPOCO</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>TAMPOCO *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* TAMPOCO</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ TAMPOCO *</pattern>
       <template> 
-        <srai>TAMBI…N</srai>
+        <srai>TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
@@ -10165,51 +10165,51 @@
       </template>
     </category>
 	<category> 
-      <pattern>CAF…</pattern>
+      <pattern>CAFÔøΩ</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>CAF… *</pattern>
+      <pattern>CAFÔøΩ *</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
     <category> 
-      <pattern>* CAF…</pattern>
+      <pattern>* CAFÔøΩ</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ CAF… *</pattern>
+      <pattern>_ CAFÔøΩ *</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>CAFE</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>CAFE *</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* CAFE</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ CAFE *</pattern>
       <template> 
-        <srai>UN CAF…</srai>
+        <srai>UN CAFÔøΩ</srai>
       </template>
     </category>
 	<category> 
@@ -10273,115 +10273,115 @@
       </template>
     </category>
 	<category> 
-      <pattern>Y T⁄ *</pattern>
+      <pattern>Y TÔøΩ *</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
     <category> 
-      <pattern>* Y T⁄</pattern>
+      <pattern>* Y TÔøΩ</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ Y T⁄ *</pattern>
+      <pattern>_ Y TÔøΩ *</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>Y TU</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>Y TU *</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
     <category> 
       <pattern>* Y TU</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ Y TU *</pattern>
       <template> 
-        <srai>Y T⁄</srai>
+        <srai>Y TÔøΩ</srai>
       </template>
     </category>
 	<category> 
-      <pattern>YO TAMBI…N *</pattern>
+      <pattern>YO TAMBIÔøΩN *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
-      <pattern>* YO TAMBI…N</pattern>
+      <pattern>* YO TAMBIÔøΩN</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
-      <pattern>_ YO TAMBI…N *</pattern>
+      <pattern>_ YO TAMBIÔøΩN *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>YO TAMBIEN</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>YO TAMBIEN *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* YO TAMBIEN</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ YO TAMBIEN *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO YO</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>COMO YO *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
     <category> 
       <pattern>* COMO YO</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
 	<category> 
       <pattern>_ COMO YO *</pattern>
       <template> 
-        <srai>YO TAMBI…N</srai>
+        <srai>YO TAMBIÔøΩN</srai>
       </template>
     </category>
       <category> 
-      <pattern>D”NDE QUEDA *</pattern>
+      <pattern>DÔøΩNDE QUEDA *</pattern>
       <template> 
         <srai>DEFINE <star/></srai>
       </template>

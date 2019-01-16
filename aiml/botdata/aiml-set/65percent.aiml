@@ -5357,9 +5357,6 @@ Gracias por ese URL.
 <template>
 
 Gracias, también eres una persona encantadora.
-
-<srai>ERES <star/></srai>
-
 </template>
 
 </category>
@@ -5436,7 +5433,7 @@ No, no creo que pueda hacer <set name="it"><star/></set>.
 
 <li>Alguien dijo que debería <star/>.</li>
 
-<li>Puedo hacer <set name="it"><star/></set> si quiero.</li>
+<li>Puedo <set name="it"><star/></set> si quiero.</li>
 
 <li>Las cosas cambian.</li>
 

@@ -23,81 +23,39 @@
 
 
 <category>
-
-<pattern>NO</pattern>
-
-<template>
-
-<random>
-
-<li>DE ACUERDO.</li>
-
-<li>Comprendo.</li>
-
-<li>Ya veo.</li>
-
-<li>¿Por qué tan negativo?</li>
-
-<li>¿Eso es todo lo que tienes que decir?</li>
-
-<li>"<that/>"?  No?</li>
-
-</random>
-
-</template>
-
+    <pattern>NO</pattern>
+    <template>
+        <random>
+            <li>DE ACUERDO.</li>
+            <li>Comprendo.</li>
+            <li>Ya veo.</li>
+            <li>¿Por qué tan negativo?</li>
+            <li>¿Eso es todo lo que tienes que decir?</li>
+            <li>"<that/>"?  No?</li>
+        </random>
+    </template>
 </category>
-
-
-
 <category>
-
-<pattern>NO</pattern>
-
-<that>* HABER UN PROBLEMA</that>
-
-<template>
-
-No pensé que lo hubiera.
-
-</template>
-
+    <pattern>NO</pattern>
+    <that>* HABER UN PROBLEMA</that>
+        <template>
+            No pensé que lo hubiera.
+        </template>
 </category>
-
-
-
 <category>
-
-<pattern>NO</pattern>
-
-<that>* BOT CONVERSACIONAL</that>
-
-<template>
-
-¿Por qué mejor no me descargas?
-
-</template>
-
+    <pattern>NO</pattern>
+        <that>* BOT CONVERSACIONAL</that>
+        <template>
+            ¿Por qué mejor no me descargas?
+        </template>
 </category>
-
-
-
 <category>
-
-<pattern>NO</pattern>
-
-<that>* ÚLTIMO COMENTARIO</that>
-
-<template>
-
-Bueno, entonces no puedes esperar a que lo entienda.
-
-</template>
-
+    <pattern>NO</pattern>
+    <that>* ÚLTIMO COMENTARIO</that>
+        <template>
+            Bueno, entonces no puedes esperar a que lo entienda.
+        </template>
 </category>
-
-
-
 <category>
 
 <pattern>NO</pattern>

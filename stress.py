@@ -6,6 +6,7 @@ a log file is highly recommended.
 from __future__ import print_function
 
 import aiml
+import time
 
 # Create the kernels
 kern1 = aiml.Kernel()
@@ -15,7 +16,7 @@ kern2.verbose(False)
 
 # Initialize the kernels
 print( "Initializing Kernel #1" )
-kern1.bootstrap(learnFiles="std-startup.xml", commands="load aiml b")
+kern1.bootstrap(learnFiles="std-startup.xml", commands="load aiml es")
 kern1.saveBrain("standard.brn")
 print( "\nInitializing Kernel #2" )
 kern2.bootstrap(brainFile="standard.brn")
@@ -25,6 +26,7 @@ response = "askquestion"
 
 # Off they go!
 while True:
+    print('-------------------------------------------------------------')
     response = kern1.respond(response).strip()
     print( "1:", response, "\n" )
     response = kern2.respond(response).strip()
@@ -33,3 +35,4 @@ while True:
     # to break the ice.
     if response == "":
         response = "askquestion"
+    time.sleep(2)

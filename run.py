@@ -13,7 +13,7 @@ engine = pyttsx.init()
 
 voices = engine.getProperty('voices')
 #indice para voz [0] - Español-HELENA ; [1] Ingles-ZIRA;[2] Ingles-SABINA
-engine.setProperty('voice', voices[0].id)
+engine.setProperty('voice', voices[2].id)
 
 kernel = aiml.Kernel()
 kernel.learn("std-startup.xml")
@@ -26,7 +26,7 @@ while True:
 
         audio = r.listen(source, phrase_time_limit=5)
     try:
-        mensaje = r.recognize_sphinx(audio,'es-ES')
+        mensaje = r.recognize_sphinx(audio_data=audio, language='es-ES')
         print(mensaje)
     except sr.UnknownValueError:
         mensaje = 'error'
